@@ -16,6 +16,8 @@
 		CD6A9CC01FDDCF6C00A80CD3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A9CBF1FDDCF6C00A80CD3 /* StartViewController.swift */; };
 		CD6A9CC21FDDCFE300A80CD3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A9CC11FDDCFE300A80CD3 /* TableViewController.swift */; };
 		CD6A9CC41FDDD01000A80CD3 /* CreateDiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A9CC31FDDD01000A80CD3 /* CreateDiscussionViewController.swift */; };
+		CD9E7E311FE1AABC0068E102 /* Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E7E301FE1AABC0068E102 /* Discussion.swift */; };
+		CD9E7E331FE1AC180068E102 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E7E321FE1AC180068E102 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CD6A9CBF1FDDCF6C00A80CD3 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		CD6A9CC11FDDCFE300A80CD3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CD6A9CC31FDDD01000A80CD3 /* CreateDiscussionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDiscussionViewController.swift; sourceTree = "<group>"; };
+		CD9E7E301FE1AABC0068E102 /* Discussion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discussion.swift; sourceTree = "<group>"; };
+		CD9E7E321FE1AC180068E102 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				CD6A9C931FDDC95700A80CD3 /* Main.storyboard */,
 				CD6A9CC31FDDD01000A80CD3 /* CreateDiscussionViewController.swift */,
 				CD6A9CC11FDDCFE300A80CD3 /* TableViewController.swift */,
+				CD9E7E301FE1AABC0068E102 /* Discussion.swift */,
+				CD9E7E321FE1AC180068E102 /* Student.swift */,
 				CD6A9C961FDDC95700A80CD3 /* Assets.xcassets */,
 				CD6A9C981FDDC95700A80CD3 /* LaunchScreen.storyboard */,
 				CD6A9C9B1FDDC95700A80CD3 /* Info.plist */,
@@ -266,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6A9C901FDDC95700A80CD3 /* AppDelegate.swift in Sources */,
+				CD9E7E331FE1AC180068E102 /* Student.swift in Sources */,
+				CD9E7E311FE1AABC0068E102 /* Discussion.swift in Sources */,
 				CD6A9CC21FDDCFE300A80CD3 /* TableViewController.swift in Sources */,
 				CD6A9CC41FDDD01000A80CD3 /* CreateDiscussionViewController.swift in Sources */,
 				CD6A9CC01FDDCF6C00A80CD3 /* StartViewController.swift in Sources */,
@@ -515,6 +523,7 @@
 				CD6A9CB61FDDC95700A80CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD6A9CB71FDDC95700A80CD3 /* Build configuration list for PBXNativeTarget "Disco2(singleView)Tests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				CD6A9CB91FDDC95700A80CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD6A9CBA1FDDC95700A80CD3 /* Build configuration list for PBXNativeTarget "Disco2(singleView)UITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +541,7 @@
 				CD6A9CBC1FDDC95700A80CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
