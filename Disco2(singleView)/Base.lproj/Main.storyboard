@@ -21,17 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpf-mN-vjC">
-                                <rect key="frame" x="70" y="406" width="300" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="0.54430650684931503" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="I am a Student">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-Hl-nz1">
-                                <rect key="frame" x="464" y="406" width="300" height="300"/>
+                                <rect key="frame" x="454" y="406" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="0.54430650684931503" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -42,15 +33,30 @@
                                     <segue destination="KB0-pw-Fhm" kind="show" id="uwm-DK-hjw"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Disco App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9D-OR-zWC">
-                                <rect key="frame" x="201" y="133" width="432" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Disco App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9D-OR-zWC">
+                                <rect key="frame" x="235" y="133" width="364" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="deU-um-ZkN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpf-mN-vjC">
+                                <rect key="frame" x="80" y="406" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="0.54430650684931503" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="I am a Student">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r9D-OR-zWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="69" id="Wxw-Op-25M"/>
+                            <constraint firstItem="r9D-OR-zWC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uXt-GK-j93"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="860-fW-IU0">
                         <barButtonItem key="backBarButtonItem" title="Back" id="gTD-xE-ul2"/>
@@ -58,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1075.5395683453239" y="138.66906474820144"/>
+            <point key="canvasLocation" x="1075" y="138"/>
         </scene>
         <!--Discussions-->
         <scene sceneID="gm7-Mr-ed7">
@@ -105,7 +111,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g46-mJ-Wnv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1799" y="139"/>
+            <point key="canvasLocation" x="1981" y="138"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kKt-3p-vec">
@@ -169,7 +175,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bgM-e4-Orp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2551.0791366906478" y="835.79136690647488"/>
+            <point key="canvasLocation" x="2949" y="1344"/>
         </scene>
         <!--Create Discussion View Controller-->
         <scene sceneID="VwF-G4-6W5">
@@ -222,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uE7-dP-Lto" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2500.719424460432" y="138.66906474820144"/>
+            <point key="canvasLocation" x="2949" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fGR-YP-Cix">
@@ -258,10 +264,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="INs-9h-gOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798.5611510791368" y="835.79136690647488"/>
+            <point key="canvasLocation" x="1981" y="1344"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wyg-Y1-2dD"/>
+        <segue reference="KB8-Df-rnb"/>
     </inferredMetricsTieBreakers>
 </document>
