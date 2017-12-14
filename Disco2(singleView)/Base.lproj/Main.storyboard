@@ -116,7 +116,7 @@
                     <navigationItem key="navigationItem" title="Discussions" id="uVY-wL-deM">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="wP6-eu-2uZ">
                             <connections>
-                                <segue destination="6ef-Dd-ZEf" kind="show" id="Czp-1y-qEY"/>
+                                <segue destination="PRe-A7-8yc" kind="show" id="Czp-1y-qEY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -189,7 +189,7 @@
             </objects>
             <point key="canvasLocation" x="2949" y="919"/>
         </scene>
-        <!--Create Discussion View Controller-->
+        <!--New Discussion-->
         <scene sceneID="VwF-G4-6W5">
             <objects>
                 <viewController id="6ef-Dd-ZEf" customClass="CreateDiscussionViewController" customModule="Disco2_singleView_" customModuleProvider="target" sceneMemberID="viewController">
@@ -231,16 +231,20 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KB0-pw-Fhm" kind="show" id="KB8-Df-rnb"/>
+                                    <segue destination="KB0-pw-Fhm" kind="presentation" identifier="AddItem" id="KB8-Df-rnb"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="New Discussion" id="2kQ-BW-3OP">
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="HVQ-kJ-1Q4"/>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="cxb-n1-Oq2"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uE7-dP-Lto" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2949" y="138"/>
+            <point key="canvasLocation" x="3701.4388489208636" y="137.58992805755395"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fGR-YP-Cix">
@@ -278,8 +282,26 @@
             </objects>
             <point key="canvasLocation" x="1981" y="919"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gC5-U8-eyf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PRe-A7-8yc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tmg-Fy-f8e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6ef-Dd-ZEf" kind="relationship" relationship="rootViewController" id="4CP-co-9UQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="847-ti-LB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2948.9208633093526" y="137.58992805755395"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uwm-DK-hjw"/>
+        <segue reference="KB8-Df-rnb"/>
     </inferredMetricsTieBreakers>
 </document>
