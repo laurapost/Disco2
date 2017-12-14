@@ -18,6 +18,7 @@
 		CD6A9CC41FDDD01000A80CD3 /* CreateDiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A9CC31FDDD01000A80CD3 /* CreateDiscussionViewController.swift */; };
 		CD9E7E311FE1AABC0068E102 /* Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E7E301FE1AABC0068E102 /* Discussion.swift */; };
 		CD9E7E331FE1AC180068E102 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E7E321FE1AC180068E102 /* Student.swift */; };
+		CD9E7E351FE1AEF60068E102 /* DiscussionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E7E341FE1AEF60068E102 /* DiscussionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CD6A9CC31FDDD01000A80CD3 /* CreateDiscussionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDiscussionViewController.swift; sourceTree = "<group>"; };
 		CD9E7E301FE1AABC0068E102 /* Discussion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discussion.swift; sourceTree = "<group>"; };
 		CD9E7E321FE1AC180068E102 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		CD9E7E341FE1AEF60068E102 /* DiscussionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				CD6A9CC11FDDCFE300A80CD3 /* TableViewController.swift */,
 				CD9E7E301FE1AABC0068E102 /* Discussion.swift */,
 				CD9E7E321FE1AC180068E102 /* Student.swift */,
+				CD9E7E341FE1AEF60068E102 /* DiscussionTableViewCell.swift */,
 				CD6A9C961FDDC95700A80CD3 /* Assets.xcassets */,
 				CD6A9C981FDDC95700A80CD3 /* LaunchScreen.storyboard */,
 				CD6A9C9B1FDDC95700A80CD3 /* Info.plist */,
@@ -277,6 +280,7 @@
 				CD6A9CC21FDDCFE300A80CD3 /* TableViewController.swift in Sources */,
 				CD6A9CC41FDDD01000A80CD3 /* CreateDiscussionViewController.swift in Sources */,
 				CD6A9CC01FDDCF6C00A80CD3 /* StartViewController.swift in Sources */,
+				CD9E7E351FE1AEF60068E102 /* DiscussionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

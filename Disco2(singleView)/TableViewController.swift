@@ -10,6 +10,9 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+    //Properties
+    var discussions = [Discussion]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
